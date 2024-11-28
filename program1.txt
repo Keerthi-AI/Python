@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+int a=5,b=10,result;
+result=((a<=b) \\(a!=b));
+printf("return value of above expression %d\n,result");
+
+result=((a<b) &&(a==b));
+printf("return value of above expression %d\n,result");
+
+result=!((a<b) &&(a==b));
+printf("return value of above expression %d\n,result");
+
+}
+
+
