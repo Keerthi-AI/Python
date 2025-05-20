@@ -10,7 +10,7 @@ result=((a<b) &&(a==b));
 printf("return value of above expression %d\n,result");
 
 result=!((a<b) &&(a==b));
-printf("return value of above expression %d\n,result");
+
 
 }
 
